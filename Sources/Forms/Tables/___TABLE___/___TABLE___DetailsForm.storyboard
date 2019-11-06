@@ -99,7 +99,7 @@
                                                             <userDefinedRuntimeAttribute type="string" keyPath="bindTo.record.___FIELD_4___" value="___FIELD_4_BINDING_TYPE___"/>
                                                         </userDefinedRuntimeAttributes>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="___FIELD_4_LABEL___" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBY-DP-tUb" customClass="IconLabel" customModule="Tasks" customModuleProvider="target">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="___FIELD_4_LABEL___" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBY-DP-tUb" customClass="IconLabel" customModule="___PRODUCT___" customModuleProvider="target">
                                                         <rect key="frame" x="8" y="115" width="173" height="40"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="Cs2-DK-Hhc"/>
@@ -175,7 +175,7 @@
                                                             <userDefinedRuntimeAttribute type="string" keyPath="bindTo.record.___FIELD_5___" value="___FIELD_5_BINDING_TYPE___"/>
                                                         </userDefinedRuntimeAttributes>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="___FIELD_5_LABEL___" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHQ-hC-b9Y" customClass="IconLabel" customModule="Tasks" customModuleProvider="target">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="___FIELD_5_LABEL___" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LHQ-hC-b9Y" customClass="IconLabel" customModule="___PRODUCT___" customModuleProvider="target">
                                                         <rect key="frame" x="8" y="115" width="173" height="40"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="pvi-0P-vpd"/>
@@ -250,7 +250,7 @@
                                                             <userDefinedRuntimeAttribute type="string" keyPath="bindTo.record.___FIELD_6___" value="___FIELD_6_BINDING_TYPE___"/>
                                                         </userDefinedRuntimeAttributes>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="___FIELD_6_LABEL___" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Go5-JV-sxK" customClass="IconLabel" customModule="Tasks" customModuleProvider="target">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="___FIELD_6_LABEL___" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Go5-JV-sxK" customClass="IconLabel" customModule="___PRODUCT___" customModuleProvider="target">
                                                         <rect key="frame" x="8" y="88" width="378" height="40"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="Cis-1S-KNQ"/>
@@ -334,7 +334,7 @@
                                                                             <userDefinedRuntimeAttribute type="string" keyPath="bindTo.record.___FIELD___" value="___FIELD_BINDING_TYPE___"/>
                                                                         </userDefinedRuntimeAttributes>
                                                                     </label>
-                                                                    <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="___FIELD_LABEL___" lineBreakMode="clip" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAG-FD-004" customClass="IconLabel" customModule="Tasks" customModuleProvider="target">
+                                                                    <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="___FIELD_LABEL___" lineBreakMode="clip" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TAG-FD-004" customClass="IconLabel" customModule="___PRODUCT___" customModuleProvider="target">
                                                                         <rect key="frame" x="8" y="91.5" width="378" height="40"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="40" id="TAG-FD-005"/>
