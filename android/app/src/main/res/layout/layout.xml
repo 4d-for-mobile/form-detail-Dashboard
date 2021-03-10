@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="DuplicateIds,HardcodedText">
+
+    <data>
+
+        <!--ENTITY_VARIABLE-->
+    </data>
+
+    <!-- Generated with detail form template named "My Custom Detail" -->
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <!-- START EDITING HERE -->
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/__SPECIFIC_ID_1__"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:contentDescription="Image"
+                    android:elevation="4dp"
+                    app:imageUrl="__IMAGE_1__"
+                    app:imageTransform='@{"CircleCrop"}'
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:background="@tools:sample/avatars" />
+
+                <TextView
+                    android:id="@+id/__SPECIFIC_ID_2__"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:elevation="4dp"
+                    android:scrollbars="none"
+                    android:text="__TEXT_2__"
+                    android:textAlignment="center"
+                    android:textColor="?colorOnSurface"
+                    android:textSize="26sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/__SPECIFIC_ID_1__"
+                    tools:text="My field 2" />
+
+                <TextView
+                    android:id="@+id/__SPECIFIC_ID_3__"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:elevation="4dp"
+                    android:paddingBottom="16dp"
+                    android:scrollbars="none"
+                    android:text="__TEXT_3__"
+                    android:textAlignment="center"
+                    android:textColor="?colorOnSurface"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/__SPECIFIC_ID_2__"
+                    tools:text="My field 3" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    app:layout_constraintTop_toBottomOf="@id/__SPECIFIC_ID_3__">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight=".50"
+                        android:layout_height="match_parent"
+                        app:cardCornerRadius="16dp"
+                        app:cardElevation="2dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/__SPECIFIC_ID_4__"
+                            android:text="__TEXT_4__"
+                            tools:text="My field 4"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="16dp"
+                            android:layout_marginBottom="16dp"
+                            android:layout_marginRight="6dp"
+                            android:scrollbars="none"
+                            android:textColor="?colorOnSurface"
+                            android:textSize="18sp"
+                            android:textStyle="bold"/>
+
+                            <view
+                                android:id="@+id/separator"
+                                android:background="?colorOnSurface"
+                                android:layout_width="match_parent"
+                                android:layout_height="1px"
+                                android:layout_marginRight="16dp"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginTop="0dp"
+                                android:layout_marginBottom="10dp"/>
+
+                            <TextView
+                                android:id="@+id/LABEL4"
+                                android:text="__LABEL_4__"
+                                tools:text="My label 4"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="16dp"
+                                android:layout_marginRight="6dp"
+                                android:scrollbars="none"
+                                android:textColor="?colorOnSurface"
+                                android:alpha="0.6"
+                                android:textSize="17sp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="0dp"
+                        android:layout_weight=".50"
+                        android:layout_height="match_parent"
+                        app:cardCornerRadius="16dp"
+                        app:cardElevation="2dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginTop="8dp"
+                        android:layout_marginBottom="8dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/__SPECIFIC_ID_5__"
+                                android:text="__TEXT_5__"
+                                tools:text="My field 5"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginBottom="16dp"
+                                android:layout_marginRight="6dp"
+                                android:scrollbars="none"
+                                android:textColor="?colorOnSurface"
+                                android:textSize="18sp"
+                                android:textStyle="bold"/>
+
+                            <view
+                                android:id="@+id/separator2"
+                                android:background="?colorOnSurface"
+                                android:layout_width="match_parent"
+                                android:layout_height="1px"
+                                android:layout_marginRight="16dp"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginTop="0dp"
+                                android:layout_marginBottom="10dp"/>
+
+                            <TextView
+                                android:id="@+id/LABEL5"
+                                android:text="__LABEL_5__"
+                                tools:text="My label 5"
+                                android:layout_height="wrap_content"
+                                android:layout_width="match_parent"
+                                android:layout_marginLeft="16dp"
+                                android:layout_marginTop="8dp"
+                                android:layout_marginBottom="16dp"
+                                android:layout_marginRight="6dp"
+                                android:scrollbars="none"
+                                android:textColor="?colorOnSurface"
+                                android:alpha="0.6"
+                                android:textSize="17sp"/>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!--
+            THE FOLLOWING PART WILL BE DUPLICATED CARD VIEWS FOR EVERY FIELD
+            YOU DROP AT THE BOTTOM OF THE TEMPLATE
+            -->
+
+            <!--FOR_EACH_FIELD-->
+            <!-- EVERYTHING BELOW WILL BE DUPLICATED FOR EACH FIELD YOU DROP AT THE BOTTOM OF THE
+                 TEMPLATE IN THE PROJECT EDITOR -->
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginHorizontal="8dp"
+                    android:layout_marginVertical="2dp"
+                    app:cardCornerRadius="16dp"
+                    app:cardElevation="2dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <!--IF_IS_RELATION-->
+                        <!-- IF THE DROPPED FIELD IS A RELATION, A BUTTON WILL BE DISPLAYED -->
+                            <Button
+                                android:id="@+id/__BUTTON_ID__"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:layout_marginBottom="16dp"
+                                android:text="__BUTTON__"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:text="My relation" />
+                        <!--END_IF_IS_RELATION-->
+                        <!--IF_IS_NOT_RELATION-->
+                        <!-- IF THE DROPPED FIELD IS NOT A RELATION, IT WILL EITHER BE AN
+                        IMAGE VIEW OR A TEXT VIEW, AND IT WILL HAVE A LABEL IN A TEXT VIEW -->
+                            <TextView
+                                android:id="@+id/__LABEL_ID__"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginTop="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:layout_marginBottom="16dp"
+                                android:scrollbars="none"
+                                android:text="__LABEL__"
+                                android:textColor="?colorOnSurface"
+                                android:textSize="18sp"
+                                android:textStyle="bold"
+                                app:layout_constraintBottom_toTopOf="@+id/separator_ID"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                tools:text="My label" />
+
+                        <view
+                            android:id="@+id/separator_ID"
+                            android:background="?colorOnSurface"
+                            android:layout_width="match_parent"
+                            android:layout_height="1px"
+                            android:layout_marginRight="16dp"
+                            android:layout_marginLeft="16dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginBottom="10dp"
+                            app:layout_constraintTop_toBottomOf="@id/__LABEL_ID__"
+                            app:layout_constraintBottom_toTopOf="@id/__VALUE_ID__"
+                            />
+
+                            <!--IF_IS_IMAGE-->
+                            <!-- IF THE DROPPED FIELD IS AN IMAGE -->
+                                <ImageView
+                                    android:id="@+id/__VALUE_ID__"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginTop="16dp"
+                                    android:layout_marginEnd="16dp"
+                                    android:layout_marginBottom="16dp"
+                                    android:contentDescription="Image"
+                                    app:imageUrl="__IMAGE__"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/__LABEL_ID__" />
+                            <!--END_IF_IS_IMAGE-->
+                            <!--IF_IS_NOT_IMAGE-->
+                            <!-- IF THE DROPPED FIELD IS NOT AN IMAGE, THEN IT WILL BE A TEXT VIEW -->
+                                <TextView
+                                    android:id="@+id/__VALUE_ID__"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="16dp"
+                                    android:layout_marginEnd="16dp"
+                                    android:layout_marginBottom="16dp"
+                                    android:layout_marginTop="8dp"
+                                    android:scrollbars="none"
+                                    android:text="__TEXT__"
+                                    android:textAlignment="textStart"
+                                    android:textAllCaps="false"
+                                    android:textColor="?colorOnSurface"
+                                    android:textSize="17sp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/separator_ID"
+                                    tools:text="My field" />
+                            <!--END_IF_IS_NOT_IMAGE-->
+
+                        <!--END_IF_IS_NOT_RELATION-->
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            <!--END_FOR_EACH_FIELD-->
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</layout>
