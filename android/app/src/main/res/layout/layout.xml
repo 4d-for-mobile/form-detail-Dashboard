@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/__SPECIFIC_ID_1__"
+                    android:id="@+id/___SPECIFIC_ID_1___"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
                     android:layout_marginStart="8dp"
@@ -40,14 +40,14 @@
                     android:contentDescription="Image"
                     android:elevation="4dp"
                     app:imageTransform='@{"CropCircleWithBorder"}'
-                    app:imageUrl="__IMAGE_1__"
+                    app:imageUrl="___IMAGE_1___"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
                     tools:background="@tools:sample/avatars" />
 
                 <TextView
-                    android:id="@+id/__SPECIFIC_ID_2__"
+                    android:id="@+id/___SPECIFIC_ID_2___"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -56,17 +56,17 @@
                     android:layout_marginBottom="8dp"
                     android:elevation="4dp"
                     android:scrollbars="none"
-                    android:text="__TEXT_2__"
+                    android:text="___TEXT_2___"
                     android:textAlignment="center"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
                     android:textColor="?colorOnSurface"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/__SPECIFIC_ID_1__"
+                    app:layout_constraintTop_toBottomOf="@+id/___SPECIFIC_ID_1___"
                     tools:text="My field 2" />
 
                 <TextView
-                    android:id="@+id/__SPECIFIC_ID_3__"
+                    android:id="@+id/___SPECIFIC_ID_3___"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
@@ -76,21 +76,21 @@
                     android:elevation="4dp"
                     android:paddingBottom="16dp"
                     android:scrollbars="none"
-                    android:text="__TEXT_3__"
+                    android:text="___TEXT_3___"
                     android:textAlignment="center"
                     android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
                     android:textColor="?colorOnSurface"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/__SPECIFIC_ID_2__"
+                    app:layout_constraintTop_toBottomOf="@+id/___SPECIFIC_ID_2___"
                     tools:text="My field 3" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    app:layout_constraintTop_toBottomOf="@id/__SPECIFIC_ID_3__">
+                    app:layout_constraintTop_toBottomOf="@id/___SPECIFIC_ID_3___">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
@@ -110,7 +110,7 @@
                             android:orientation="vertical">
 
                             <TextView
-                                android:id="@+id/__SPECIFIC_ID_4__"
+                                android:id="@+id/___SPECIFIC_ID_4___"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -118,7 +118,7 @@
                                 android:layout_marginEnd="6dp"
                                 android:layout_marginBottom="16dp"
                                 android:scrollbars="none"
-                                android:text="__TEXT_4__"
+                                android:text="___TEXT_4___"
                                 android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                                 android:textColor="@color/black"
                                 android:textStyle="bold"
@@ -144,7 +144,7 @@
                                 android:layout_marginBottom="16dp"
                                 android:alpha="0.6"
                                 android:scrollbars="none"
-                                android:text="__FIELD_LABEL_4__"
+                                android:text="___FIELD_LABEL_4___"
                                 android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                                 android:textColor="@color/black"
                                 tools:text="My label 4" />
@@ -171,7 +171,7 @@
                             android:orientation="vertical">
 
                             <TextView
-                                android:id="@+id/__SPECIFIC_ID_5__"
+                                android:id="@+id/___SPECIFIC_ID_5___"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -179,7 +179,7 @@
                                 android:layout_marginEnd="6dp"
                                 android:layout_marginBottom="16dp"
                                 android:scrollbars="none"
-                                android:text="__TEXT_5__"
+                                android:text="___TEXT_5___"
                                 android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                                 android:textColor="@color/black"
                                 android:textStyle="bold"
@@ -205,7 +205,7 @@
                                 android:layout_marginBottom="16dp"
                                 android:alpha="0.6"
                                 android:scrollbars="none"
-                                android:text="__FIELD_LABEL_5__"
+                                android:text="___FIELD_LABEL_5___"
                                 android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                                 android:textColor="@color/black"
                                 tools:text="My label 5" />
@@ -243,14 +243,14 @@
                     <!--IF_IS_RELATION-->
                     <!-- IF THE DROPPED FIELD IS A RELATION, A BUTTON WILL BE DISPLAYED -->
                     <Button
-                        android:id="@+id/__BUTTON_ID__"
+                        android:id="@+id/___BUTTON_ID___"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        android:text="__BUTTON__"
+                        android:text="___BUTTON___"
                         android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -262,7 +262,7 @@
                     <!-- IF THE DROPPED FIELD IS NOT A RELATION, IT WILL EITHER BE AN
                     IMAGE VIEW OR A TEXT VIEW, AND IT WILL HAVE A LABEL IN A TEXT VIEW -->
                     <TextView
-                        android:id="@+id/__LABEL_ID__"
+                        android:id="@+id/___LABEL_ID___"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -271,11 +271,11 @@
                         android:layout_marginBottom="8dp"
                         android:alpha="0.6"
                         android:scrollbars="none"
-                        android:text="__FIELD_LABEL__"
+                        android:text="___FIELD_LABEL___"
                         android:textAlignment="textStart"
                         android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
                         android:textColor="@color/black"
-                        app:layout_constraintBottom_toTopOf="@+id/__VALUE_ID__"
+                        app:layout_constraintBottom_toTopOf="@+id/___VALUE_ID___"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -289,14 +289,14 @@
                         android:layout_marginRight="30dp"
                         android:layout_marginBottom="12dp"
                         android:background="#DDD"
-                        app:layout_constraintBottom_toTopOf="@id/__VALUE_ID__"
+                        app:layout_constraintBottom_toTopOf="@id/___VALUE_ID___"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/__LABEL_ID__" />
+                        app:layout_constraintTop_toBottomOf="@+id/___LABEL_ID___" />
                     <!--IF_IS_IMAGE-->
                     <!-- IF THE DROPPED FIELD IS AN IMAGE -->
                     <ImageView
-                        android:id="@+id/__VALUE_ID__"
+                        android:id="@+id/___VALUE_ID___"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -304,23 +304,23 @@
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
                         android:contentDescription="Image"
-                        app:imageUrl="__IMAGE__"
+                        app:imageUrl="___IMAGE___"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/__LABEL_ID__" />
+                        app:layout_constraintTop_toBottomOf="@+id/___LABEL_ID___" />
                     <!--END_IF_IS_IMAGE-->
                     <!--IF_IS_NOT_IMAGE-->
                     <!-- IF THE DROPPED FIELD IS NOT AN IMAGE, THEN IT WILL BE A TEXT VIEW -->
                     <TextView
-                        android:id="@+id/__VALUE_ID__"
+                        android:id="@+id/___VALUE_ID___"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
                         android:scrollbars="none"
-                        android:text="__TEXT__"
+                        android:text="___TEXT___"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
                         android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
@@ -328,7 +328,7 @@
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@+id/__LABEL_ID__"
+                        app:layout_constraintTop_toBottomOf="@+id/___LABEL_ID___"
                         tools:text="My field" />
                     <!--END_IF_IS_NOT_IMAGE-->
 
