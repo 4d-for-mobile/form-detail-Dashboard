@@ -14,6 +14,7 @@
     <!-- Generated with detail form template named "Dashboard Detail" -->
 
     <androidx.core.widget.NestedScrollView
+        style="@style/Theme.MyApplication.Custom.Background.Alt2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true">
@@ -48,7 +49,7 @@
 
                 <TextView
                     android:id="@+id/___SPECIFIC_ID_2___"
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="4dp"
@@ -58,7 +59,7 @@
                     android:scrollbars="none"
                     android:text="___TEXT_2___"
                     android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
                     android:textColor="?colorOnSurface"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -67,7 +68,7 @@
 
                 <TextView
                     android:id="@+id/___SPECIFIC_ID_3___"
-                    android:layout_width="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="2dp"
@@ -78,7 +79,7 @@
                     android:scrollbars="none"
                     android:text="___TEXT_3___"
                     android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
                     android:textColor="?colorOnSurface"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -93,14 +94,13 @@
                     app:layout_constraintTop_toBottomOf="@id/___SPECIFIC_ID_3___">
 
                     <androidx.cardview.widget.CardView
+                        style="@style/Theme.MyApplication.Card.Background.Alt2"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
-                        android:layout_marginBottom="8dp"
                         android:layout_weight=".50"
-                        app:cardBackgroundColor="#EEEEEE"
                         app:cardCornerRadius="16dp"
                         app:cardElevation="2dp">
 
@@ -111,6 +111,7 @@
 
                             <TextView
                                 android:id="@+id/___SPECIFIC_ID_4___"
+                                style="@style/Theme.MyApplication.Text.Color"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -120,46 +121,45 @@
                                 android:scrollbars="none"
                                 android:text="___TEXT_4___"
                                 android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-                                android:textColor="@color/black"
                                 android:textStyle="bold"
                                 tools:text="My field 4" />
 
                             <View
                                 android:id="@+id/separator"
+                                style="@style/Theme.MyApplication.Custom.Background.Alt3"
                                 android:layout_width="match_parent"
                                 android:layout_height="1px"
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="0dp"
                                 android:layout_marginEnd="16dp"
                                 android:layout_marginBottom="10dp"
-                                android:background="?colorOnSurface" />
+                                android:alpha="0.3" />
 
                             <TextView
-                                android:id="@+id/LABEL4"
+                                style="@style/Theme.MyApplication.Text.Color"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="8dp"
                                 android:layout_marginEnd="6dp"
                                 android:layout_marginBottom="16dp"
-                                android:alpha="0.6"
+                                android:alpha="0.3"
                                 android:scrollbars="none"
                                 android:text="___FIELD_LABEL_4___"
                                 android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-                                android:textColor="@color/black"
-                                tools:text="My label 4" />
+                                tools:text="My field 4" />
 
                         </LinearLayout>
 
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
+                        style="@style/Theme.MyApplication.Card.Background.Alt2"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
-                        android:layout_marginBottom="8dp"
                         android:layout_weight=".50"
                         app:cardBackgroundColor="#EEEEEE"
                         app:cardCornerRadius="16dp"
@@ -172,6 +172,7 @@
 
                             <TextView
                                 android:id="@+id/___SPECIFIC_ID_5___"
+                                style="@style/Theme.MyApplication.Text.Color"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -181,34 +182,33 @@
                                 android:scrollbars="none"
                                 android:text="___TEXT_5___"
                                 android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-                                android:textColor="@color/black"
                                 android:textStyle="bold"
                                 tools:text="My field 5" />
 
                             <View
                                 android:id="@+id/separator2"
+                                style="@style/Theme.MyApplication.Custom.Background.Alt3"
                                 android:layout_width="match_parent"
                                 android:layout_height="1px"
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="0dp"
                                 android:layout_marginEnd="16dp"
                                 android:layout_marginBottom="10dp"
-                                android:background="?colorOnSurface" />
+                                android:alpha="0.3" />
 
                             <TextView
-                                android:id="@+id/LABEL5"
+                                style="@style/Theme.MyApplication.Text.Color"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="8dp"
                                 android:layout_marginEnd="6dp"
                                 android:layout_marginBottom="16dp"
-                                android:alpha="0.6"
+                                android:alpha="0.3"
                                 android:scrollbars="none"
                                 android:text="___FIELD_LABEL_5___"
                                 android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-                                android:textColor="@color/black"
-                                tools:text="My label 5" />
+                                tools:text="My field 5" />
 
                         </LinearLayout>
 
@@ -228,12 +228,12 @@
                  TEMPLATE IN THE PROJECT EDITOR -->
 
             <androidx.cardview.widget.CardView
+                style="@style/Theme.MyApplication.Card.Background.Alt2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="8dp"
-                android:layout_marginVertical="2dp"
-                app:cardBackgroundColor="#EEEEEE"
+                android:layout_marginVertical="8dp"
                 app:cardCornerRadius="16dp">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
@@ -263,18 +263,17 @@
                     IMAGE VIEW OR A TEXT VIEW, AND IT WILL HAVE A LABEL IN A TEXT VIEW -->
                     <TextView
                         android:id="@+id/___LABEL_ID___"
+                        style="@style/Theme.MyApplication.Text.Color"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
-                        android:alpha="0.6"
                         android:scrollbars="none"
                         android:text="___FIELD_LABEL___"
                         android:textAlignment="textStart"
                         android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-                        android:textColor="@color/black"
                         app:layout_constraintBottom_toTopOf="@+id/___VALUE_ID___"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -282,13 +281,14 @@
                         tools:text="My label" />
 
                     <View
+                        style="@style/Theme.MyApplication.Custom.Background.Alt3"
                         android:layout_width="match_parent"
                         android:layout_height="1px"
                         android:layout_marginLeft="30dp"
                         android:layout_marginTop="12dp"
                         android:layout_marginRight="30dp"
                         android:layout_marginBottom="12dp"
-                        android:background="#DDD"
+                        android:alpha="0.3"
                         app:layout_constraintBottom_toTopOf="@id/___VALUE_ID___"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -314,17 +314,18 @@
                     <!-- IF THE DROPPED FIELD IS NOT AN IMAGE, THEN IT WILL BE A TEXT VIEW -->
                     <TextView
                         android:id="@+id/___VALUE_ID___"
+                        style="@style/Theme.MyApplication.Text.Color"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
+                        android:alpha="0.3"
                         android:scrollbars="none"
                         android:text="___TEXT___"
                         android:textAlignment="textStart"
                         android:textAllCaps="false"
                         android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
-                        android:textColor="@color/black"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
