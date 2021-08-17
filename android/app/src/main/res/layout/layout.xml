@@ -14,7 +14,7 @@
     <!-- Generated with detail form template named "Dashboard Detail" -->
 
     <androidx.core.widget.NestedScrollView
-        style="@style/Theme.MyApplication.Custom.Background.Alt2"
+        style="@style/Theme.QMobileApp.Custom.Background.Alt2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true">
@@ -94,7 +94,7 @@
                     app:layout_constraintTop_toBottomOf="@id/___SPECIFIC_ID_3___">
 
                     <androidx.cardview.widget.CardView
-                        style="@style/Theme.MyApplication.Card.Background.Alt2"
+                        style="@style/Theme.QMobileApp.Card.Background.Alt2"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="8dp"
@@ -111,7 +111,7 @@
 
                             <TextView
                                 android:id="@+id/___SPECIFIC_ID_4___"
-                                style="@style/Theme.MyApplication.Text.Color"
+                                style="@style/Theme.QMobileApp.Text.Color"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -126,7 +126,7 @@
 
                             <View
                                 android:id="@+id/separator"
-                                style="@style/Theme.MyApplication.Custom.Background.Alt3"
+                                style="@style/Theme.QMobileApp.Custom.Background.Alt3"
                                 android:layout_width="match_parent"
                                 android:layout_height="1px"
                                 android:layout_marginStart="16dp"
@@ -136,7 +136,7 @@
                                 android:alpha="0.3" />
 
                             <TextView
-                                style="@style/Theme.MyApplication.Text.Color"
+                                style="@style/Theme.QMobileApp.Text.Color"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -154,7 +154,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
-                        style="@style/Theme.MyApplication.Card.Background.Alt2"
+                        style="@style/Theme.QMobileApp.Card.Background.Alt2"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="8dp"
@@ -172,7 +172,7 @@
 
                             <TextView
                                 android:id="@+id/___SPECIFIC_ID_5___"
-                                style="@style/Theme.MyApplication.Text.Color"
+                                style="@style/Theme.QMobileApp.Text.Color"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -187,7 +187,7 @@
 
                             <View
                                 android:id="@+id/separator2"
-                                style="@style/Theme.MyApplication.Custom.Background.Alt3"
+                                style="@style/Theme.QMobileApp.Custom.Background.Alt3"
                                 android:layout_width="match_parent"
                                 android:layout_height="1px"
                                 android:layout_marginStart="16dp"
@@ -197,7 +197,7 @@
                                 android:alpha="0.3" />
 
                             <TextView
-                                style="@style/Theme.MyApplication.Text.Color"
+                                style="@style/Theme.QMobileApp.Text.Color"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -228,7 +228,7 @@
                  TEMPLATE IN THE PROJECT EDITOR -->
 
             <androidx.cardview.widget.CardView
-                style="@style/Theme.MyApplication.Card.Background.Alt2"
+                style="@style/Theme.QMobileApp.Card.Background.Alt2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -263,7 +263,7 @@
                     IMAGE VIEW OR A TEXT VIEW, AND IT WILL HAVE A LABEL IN A TEXT VIEW -->
                     <TextView
                         android:id="@+id/___LABEL_ID___"
-                        style="@style/Theme.MyApplication.Text.Color"
+                        style="@style/Theme.QMobileApp.Text.Color"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -281,7 +281,7 @@
                         tools:text="My label" />
 
                     <View
-                        style="@style/Theme.MyApplication.Custom.Background.Alt3"
+                        style="@style/Theme.QMobileApp.Custom.Background.Alt3"
                         android:layout_width="match_parent"
                         android:layout_height="1px"
                         android:layout_marginLeft="30dp"
@@ -314,7 +314,7 @@
                     <!-- IF THE DROPPED FIELD IS NOT AN IMAGE, THEN IT WILL BE A TEXT VIEW -->
                     <TextView
                         android:id="@+id/___VALUE_ID___"
-                        style="@style/Theme.MyApplication.Text.Color"
+                        style="@style/Theme.QMobileApp.Text.Color"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
