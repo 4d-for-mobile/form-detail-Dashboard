@@ -2,7 +2,6 @@
 
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="DuplicateIds,HardcodedText">
 
@@ -14,7 +13,6 @@
     <!-- Generated with detail form template named "Dashboard Detail" -->
 
     <androidx.core.widget.NestedScrollView
-        style="@style/Theme.QMobileApp.Custom.Background.Alt2"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true">
@@ -59,7 +57,7 @@
                     android:scrollbars="none"
                     android:text="___TEXT_2___"
                     android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+                    android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
                     android:textColor="?colorOnSurface"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
@@ -79,7 +77,7 @@
                     android:scrollbars="none"
                     android:text="___TEXT_3___"
                     android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"
+                    android:textAppearance="@style/TextAppearance.Material3.HeadlineSmall"
                     android:textColor="?colorOnSurface"
                     android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -93,16 +91,14 @@
                     android:orientation="horizontal"
                     app:layout_constraintTop_toBottomOf="@id/___SPECIFIC_ID_3___">
 
-                    <androidx.cardview.widget.CardView
-                        style="@style/Theme.QMobileApp.Card.Background.Alt2"
+                    <com.google.android.material.card.MaterialCardView
+                        style="@style/Widget.Material3.CardView.Filled"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
-                        android:layout_weight=".50"
-                        app:cardCornerRadius="16dp"
-                        app:cardElevation="2dp">
+                        android:layout_weight=".50">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -111,7 +107,6 @@
 
                             <TextView
                                 android:id="@+id/___SPECIFIC_ID_4___"
-                                style="@style/Theme.QMobileApp.Text.Color"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -120,23 +115,21 @@
                                 android:layout_marginBottom="16dp"
                                 android:scrollbars="none"
                                 android:text="___TEXT_4___"
-                                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-                                android:textStyle="bold"
+                                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
                                 tools:text="My field 4" />
 
                             <View
                                 android:id="@+id/separator"
-                                style="@style/Theme.QMobileApp.Custom.Background.Alt3"
                                 android:layout_width="match_parent"
                                 android:layout_height="1px"
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="0dp"
                                 android:layout_marginEnd="16dp"
                                 android:layout_marginBottom="10dp"
-                                android:alpha="0.3" />
+                                android:alpha="0.3"
+                                android:background="?colorOnSurface" />
 
                             <TextView
-                                style="@style/Theme.QMobileApp.Text.Color"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -146,23 +139,21 @@
                                 android:alpha="0.3"
                                 android:scrollbars="none"
                                 android:text="___FIELD_LABEL_4___"
-                                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
                                 tools:text="My field 4" />
 
                         </LinearLayout>
 
-                    </androidx.cardview.widget.CardView>
+                    </com.google.android.material.card.MaterialCardView>
 
-                    <androidx.cardview.widget.CardView
-                        style="@style/Theme.QMobileApp.Card.Background.Alt2"
+                    <com.google.android.material.card.MaterialCardView
+                        style="?materialCardViewFilledStyle"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginEnd="8dp"
-                        android:layout_weight=".50"
-                        app:cardCornerRadius="16dp"
-                        app:cardElevation="2dp">
+                        android:layout_weight=".50">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -171,7 +162,6 @@
 
                             <TextView
                                 android:id="@+id/___SPECIFIC_ID_5___"
-                                style="@style/Theme.QMobileApp.Text.Color"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -180,23 +170,21 @@
                                 android:layout_marginBottom="16dp"
                                 android:scrollbars="none"
                                 android:text="___TEXT_5___"
-                                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
-                                android:textStyle="bold"
+                                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
                                 tools:text="My field 5" />
 
                             <View
                                 android:id="@+id/separator2"
-                                style="@style/Theme.QMobileApp.Custom.Background.Alt3"
                                 android:layout_width="match_parent"
                                 android:layout_height="1px"
                                 android:layout_marginStart="16dp"
                                 android:layout_marginTop="0dp"
                                 android:layout_marginEnd="16dp"
                                 android:layout_marginBottom="10dp"
-                                android:alpha="0.3" />
+                                android:alpha="0.3"
+                                android:background="?colorOnSurface" />
 
                             <TextView
-                                style="@style/Theme.QMobileApp.Text.Color"
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="16dp"
@@ -206,12 +194,12 @@
                                 android:alpha="0.3"
                                 android:scrollbars="none"
                                 android:text="___FIELD_LABEL_5___"
-                                android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                                android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
                                 tools:text="My field 5" />
 
                         </LinearLayout>
 
-                    </androidx.cardview.widget.CardView>
+                    </com.google.android.material.card.MaterialCardView>
 
                 </LinearLayout>
 
@@ -221,14 +209,13 @@
                  TEMPLATE IN THE PROJECT EDITOR -->
 
             <!--FOR_EACH_FIELD-->
-            <androidx.cardview.widget.CardView
-                style="@style/Theme.QMobileApp.Card.Background.Alt2"
+            <com.google.android.material.card.MaterialCardView
+                style="?materialCardViewFilledStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginHorizontal="8dp"
-                android:layout_marginVertical="8dp"
-                app:cardCornerRadius="16dp">
+                android:layout_marginVertical="8dp">
 
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
@@ -245,7 +232,7 @@
                         android:layout_marginEnd="8dp"
                         android:layout_marginBottom="8dp"
                         android:text="___BUTTON___"
-                        android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                        android:textAppearance="@style/TextAppearance.Material3.LabelLarge"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -257,7 +244,6 @@
                     IMAGE VIEW OR A TEXT VIEW, AND IT WILL HAVE A LABEL IN A TEXT VIEW -->
                     <TextView
                         android:id="@+id/___LABEL_ID___"
-                        style="@style/Theme.QMobileApp.Text.Color"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -267,7 +253,7 @@
                         android:scrollbars="none"
                         android:text="___FIELD_LABEL___"
                         android:textAlignment="textStart"
-                        android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+                        android:textAppearance="@style/TextAppearance.Material3.TitleMedium"
                         app:layout_constraintBottom_toTopOf="@+id/___VALUE_ID___"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -275,7 +261,6 @@
                         tools:text="My label" />
 
                     <View
-                        style="@style/Theme.QMobileApp.Custom.Background.Alt3"
                         android:layout_width="match_parent"
                         android:layout_height="1px"
                         android:layout_marginLeft="30dp"
@@ -283,6 +268,7 @@
                         android:layout_marginRight="30dp"
                         android:layout_marginBottom="12dp"
                         android:alpha="0.3"
+                        android:background="?colorOnSurface"
                         app:layout_constraintBottom_toTopOf="@id/___VALUE_ID___"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -308,7 +294,6 @@
                     <!-- IF THE DROPPED FIELD IS NOT AN IMAGE, THEN IT WILL BE A TEXT VIEW -->
                     <TextView
                         android:id="@+id/___VALUE_ID___"
-                        style="@style/Theme.QMobileApp.Text.Color"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="8dp"
@@ -318,8 +303,7 @@
                         android:scrollbars="none"
                         android:text="___TEXT___"
                         android:textAlignment="textStart"
-                        android:textAllCaps="false"
-                        android:textAppearance="@style/TextAppearance.MaterialComponents.Body2"
+                        android:textAppearance="@style/TextAppearance.Material3.TitleSmall"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
@@ -331,7 +315,7 @@
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
-            </androidx.cardview.widget.CardView>
+            </com.google.android.material.card.MaterialCardView>
 
             <!--END_FOR_EACH_FIELD-->
         </LinearLayout>
